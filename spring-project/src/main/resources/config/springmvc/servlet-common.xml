@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+					        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+					        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+					        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+					        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+					        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+					        	   	   
+    <context:component-scan base-package="org.gradle">
+        <context:include-filter type="annotation"  	expression="org.springframework.stereotype.Controller" />
+        <context:include-filter type="annotation" 	expression="org.springframework.web.bind.annotation.ControllerAdvice" />
+        <context:include-filter type="annotation"  	expression="org.springframework.stereotype.Component" />
+        <context:exclude-filter type="annotation"  	expression="org.springframework.stereotype.Service" />
+        <context:exclude-filter type="annotation"  	expression="org.springframework.stereotype.Repository" />
+    </context:component-scan>
+    
+    
+    <mvc:resources mapping="/js/**" 		location="/js/" />
+    <mvc:resources mapping="/css/**" 		location="/css/" />
+    <mvc:resources mapping="/img/**" 		location="/img/" />
+    <mvc:resources mapping="/plugins/**" 	location="/plugins/" />
+    
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+		<property name="prefix" value="/WEB-INF/jsp/view/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+
+
+    
+    <mvc:annotation-driven />
+    <mvc:default-servlet-handler />
+    
+</beans>

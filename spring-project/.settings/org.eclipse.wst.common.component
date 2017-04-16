@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="spring-project">
+		<property name="context-root" value="spring-project"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="webapp"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2/f951934aa5ae5a88d7e6dfaa6d32307d834a88be/commons-collections-3.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.0.M5/b231685a5eebf5aff487cb08ad4e7e5fd1667193/spring-context-5.0.0.M5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.0.0.M5/334fa522f395064de0519f0153e1841036c70274/spring-webmvc-5.0.0.M5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.0.M5/608a6c1f9c0f7cd91ab3d286decd8eb40f28424/spring-aop-5.0.0.M5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.0.M5/eb3e70c22f71df6428e8b347d203d7d7be4df750/spring-beans-5.0.0.M5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.0.M5/8e807781d3ddcc9443e2f75387eb0cb2d14bd3d3/spring-core-5.0.0.M5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.0.0.M5/8ac0cbad8ec18989f1de8b553abd849e32f9e8c3/spring-expression-5.0.0.M5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.0.0.M5/ffeea21f3b1edfa2471c796edd43de666080800a/spring-web-5.0.0.M5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/JC/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>
