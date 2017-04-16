@@ -10,6 +10,7 @@ public class TestController {
 	@RequestMapping("/")
 	public String main() {
 		System.out.println("test");
+		System.out.println("test1");
 		return "hello";
 	}
 
